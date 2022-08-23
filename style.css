@@ -1,14 +1,16 @@
 /*---- 
-Fonts
+  Fonts
 -----*/
 /* INTER */
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hahmlet&family=Inter:wght@700&family=Poppins:wght@700&family=Raleway:wght@100&display=swap");
-/* POPPINS */
-@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hahmlet&family=Inter:wght@700&family=Poppins:wght@400;700&family=Raleway:wght@100&display=swap");
 
-/*---- 
-COMMON
------*/
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hahmlet&family=Inter:wght@700&family=Poppins:wght@700&family=Raleway:wght@100&display=swap");
+/* ROBOTO */
+
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Hahmlet&family=Inter:wght@700&family=Poppins:wght@400;700&family=Raleway:wght@100&family=Roboto&display=swap");
+
+/*------ 
+  COMMON
+-------*/
 
 body {
   margin: 0;
@@ -17,8 +19,9 @@ body {
   font-family: "Inter", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #0b0d17;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 h1 {
@@ -28,6 +31,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-family: "Raleway", sans-serif;
 }
+
 button {
   background-color: #ff5959;
   padding: 15px 35px;
@@ -35,6 +39,7 @@ button {
   border-radius: 5px;
   border: none;
 }
+
 button:hover {
   background-color: #000000;
   padding: 15px 35px;
@@ -47,13 +52,13 @@ button:hover {
 /*---------------
 TOP SECTION
 ---------------*/
+
 .first-section {
   background: rgba(0, 0, 0, 0.7) url(images/donation13_optimized.jpg);
   text-align: center;
   padding: 120px;
   background-size: cover;
-  /* background-blend-mode: darken; */
-  background-blend-mode:saturation;
+  background-blend-mode: saturation;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -77,6 +82,7 @@ TOP SECTION
   color: white;
   border-radius: 5px;
 }
+
 #btn {
   display: flex;
   justify-content: center;
@@ -86,6 +92,7 @@ TOP SECTION
 /*---------------
     SECOND SECTION
 ---------------*/
+
 .section-two {
   text-align: center;
   margin: 40px;
@@ -262,6 +269,7 @@ form {
 .extra-margin {
   margin: 50px 0;
 }
+
 /*--------
     FOOTER
 ----------*/
@@ -294,6 +302,7 @@ footer p {
 .section-two h1 {
   font-size: 40px;
 }
+
 a {
   color: #fff;
   text-decoration: none;
