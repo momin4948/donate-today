@@ -48,11 +48,12 @@ button:hover {
 TOP SECTION
 ---------------*/
 .first-section {
-  background: rgba(0, 0, 0, 0.7) url(images/donation12.png);
+  background: rgba(0, 0, 0, 0.7) url(images/donation13_optimized.jpg);
   text-align: center;
   padding: 120px;
   background-size: cover;
-  background-blend-mode: darken;
+  /* background-blend-mode: darken; */
+  background-blend-mode:saturation;
   height: 100vh;
   display: flex;
   justify-content: center;
